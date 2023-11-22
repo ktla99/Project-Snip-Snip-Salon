@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    font-family: "Henny Penny";
     display: flex;
     justify-content: center;
     font-size: 4em;
@@ -57,9 +58,9 @@ nav {
     font-size: 1.5rem;
 }
 
-.fiveBox {
-    display: flex;
-    flex-direction: column;
+.fiveBox {<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">umn;
     align-items: center;
 }
 
