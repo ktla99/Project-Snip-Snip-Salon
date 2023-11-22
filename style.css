@@ -15,7 +15,7 @@ nav {
     justify-content: space-around;
     align-self: center;
     padding: 1rem 3rem 1rem 3rem;
-    font-size: 1em;
+    font-size: 1.5em;
     background-color: rgb(189, 255, 255);
 }
 
@@ -49,9 +49,52 @@ nav {
     width: 33.3333%;
 }
 
+.fourBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.fiveBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    padding: 2rem;
+}
+
+input {
+    width: 35rem;
+}
+
+#writeAMessage {
+    height: 10rem;
     align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+
+
+#contactName,
+#email,
+#subject,
+#writeAMessage {
+    font-size: 1.5em;
+}
+
+
+footer > nav  {
+    display: flex;
+    color: rgb(180, 240, 225)(0, 255, 136);
+    justify-content: initial;
+    align-self: stretch;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1em;
+    background-color: rgb(9, 58, 58);
 }
