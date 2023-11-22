@@ -89,11 +89,10 @@ input {
 }
 
 
-footer > nav  {
+footer {
     display: flex;
-    color: rgb(180, 240, 225)(0, 255, 136);
-    justify-content: initial;
-    align-self: stretch;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 3rem 1rem 3rem;
     font-size: 1em;
     background-color: rgb(9, 58, 58);
