@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: 'Ibarra Real Nova', 'Gill Sans', 'Gill Sans MT';
     background-image: url("https://images.unsplash.com/photo-1580610447943-1bfbef5efe07?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    object-fit: cover;
+    background-repeat: cover;
+    background-size: auto;
 }
 
 header {
@@ -21,10 +22,14 @@ nav {
     padding: 1rem 3rem 1rem 3rem;
     font-size: 1.5em;
     font-family: 'Montserrat Subrayada', 'Gill Sans', 'Gill Sans MT';
-    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg");
-    background: linear-gradient(to top, white, transparent 80%);
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent 80%);
     margin-left: 2rem;
     margin-right: 2rem;
+    color: rgb(211, 231, 231);
+}
+
+p {
+    color: rgb(211, 231, 231);
 }
 
 .firstBox {
@@ -38,12 +43,16 @@ nav {
 
 .secondBox {
     display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 0;
 }
 
 .pinkAndBlueHair,
 .pinkLightHair {
     display: flex;
-    width: 50%;
+    width: 40%;
+    border-radius: 25px;
+    border: 25px;
 }
 
 .thirdBox {
@@ -65,9 +74,24 @@ nav {
     font-size: 1.5rem;
 }
 
+.hairOne {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
 .fiveBox {
     display: flex;
     justify-content: center;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, 
+    rgba(255,255,255,1) 15%, 
+    rgba(255,255,255,1) 26%, 
+    rgba(255,255,255,0) 25%, 
+    rgba(255,255,255,0) 35%, 
+    rgba(255,255,255,0) 65%, 
+    rgba(255,255,255,0) 74%, 
+    rgba(255,255,255,1) 74%, 
+    rgba(255,255,255,1) 85%, 
+    rgba(255,255,255,0) 100%);
 }
 
 form {
@@ -76,12 +100,20 @@ form {
     padding: 2rem;
 }
 
+.contact {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: .2rem solid;
+    border-top: .2rem solid;
+}
+
 input {
     width: 35rem;
 }
 
 #writeAMessage {
-    height: 10rem;
+    height: 15rem;
     align-items: center;
     justify-content: center;
     text-align: start;
@@ -95,6 +127,12 @@ input {
     font-size: 1.5em;
 }
 
+#buttonForContact {
+    display: flex;
+    align-self: center;
+    width: 10rem;
+    height: 2rem;
+}
 
 footer {
     display: flex;
@@ -102,7 +140,5 @@ footer {
     align-items: center;
     padding: 1rem 3rem 1rem 3rem;
     font-size: 1em;
-    background-color: rgb(9, 58, 58);
     font-family: 'Montserrat Subrayada', 'Gill Sans', 'Gill Sans MT';
-    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg")
 }
