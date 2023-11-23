@@ -11,8 +11,10 @@ header {
     font-family: 'Henny Penny', 'Gill Sans', 'Gill Sans MT';
     display: flex;
     justify-content: center;
-    font-size: 4em;
-    color: rgb(159, 214, 255);
+    font-size: 6em;
+    color: rgb(182, 140, 233);
+    padding-top: 2rem;
+    background-color: rgba(112, 81, 112, 0.55);
 }
 
 nav {
@@ -44,7 +46,7 @@ p {
 .secondBox {
     display: flex;
     justify-content: space-around;
-    margin: 2rem 0 2rem 0;
+    padding: 4rem 0 4rem 0;
 }
 
 .pinkAndBlueHair,
@@ -57,13 +59,17 @@ p {
 
 .thirdBox {
     display: flex;
+    justify-content: space-around;
+    padding: 4rem 0 4rem 0;
 }
 
 .greyScaleHair,
 .longCurledHair,
 .highlightWithHair {
     display: flex;
-    width: 33.3333%;
+    width: 30%;
+    border-radius: 250px;
+    border: 25px;
 }
 
 .fourBox {
@@ -110,6 +116,7 @@ form {
 
 input {
     width: 35rem;
+    font-family: 'Ibarra Real Nova', 'Gill Sans', 'Gill Sans MT';
 }
 
 #writeAMessage {
@@ -130,8 +137,13 @@ input {
 #buttonForContact {
     display: flex;
     align-self: center;
+    padding-top: 1rem;
     width: 10rem;
     height: 2rem;
+}
+
+#contactButton {
+    font-size: 1.2rem;
 }
 
 footer {
@@ -141,4 +153,5 @@ footer {
     padding: 1rem 3rem 1rem 3rem;
     font-size: 1em;
     font-family: 'Montserrat Subrayada', 'Gill Sans', 'Gill Sans MT';
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent 80%);
 }
